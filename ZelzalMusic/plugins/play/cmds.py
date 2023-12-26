@@ -20,7 +20,7 @@ async def zdatsr(client: Client, message: Message):
     name = usr.first_name
     usrnam = usr.username
     await message.reply_photo(
-        photo=f"https://graph.org/file/1df1d4ee78c1dce31f4fe.jpg",
+        photo=f"https://telegra.ph/file/9df210c5802b98c5e39f3.jpg",
         caption=f"""<b>» مرحبـاً بك عـزيـزي </b> {message.from_user.mention} .\n\n<b>» استخـدم الازرار بالاسفـل 𝄞\n» لـ تصفـح اوامـر الميـوزك 🥁</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -39,7 +39,7 @@ async def zdatsr(client: Client, message: Message):
                     InlineKeyboardButton(name, url=f"https://t.me/{usrnam}"),
                 ],[
                     InlineKeyboardButton(
-                        "•✯ ᴢᴛʜᴏɴ_ᴍᴜsɪᴄ ✯•", url="https://t.me/Zelzal_Music"),
+                        "•✯ ᴇʟɢᴀᴢᴀʀ_ᴍụѕɪᴄ ✯•", url="https://t.me/A_M_030"),
                 ],
             ]
         ),
@@ -52,19 +52,19 @@ async def zilzal(client: Client, message: Message):
     name = usr.first_name
     usrnam = usr.username
     async for photo in client.iter_profile_photos(OWNER_ID, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""ٴ<b>•────‌‌‏✯ ʑ_ᴍᴜsɪᴄ ✯──‌‌‏─‌‌‏─•</b>
+                    await message.reply_photo(photo.file_id,       caption=f"""ٴ<b>•────‌‌‏✯ ᴇ_ᴍᴜsɪᴄ ✯──‌‌‏─‌‌‏─•</b>
                     
 - 𝚆𝙾𝙽𝙴𝚁 :[{usr.first_name}](https://t.me/{OWNER})
 - 𝚄𝚂𝙴𝚁 :@{usrnam} 
 - 𝙸𝙳 :`{usr.id}`
  
-ٴ<b>•────‌‌‏✯ ʑ_ᴍᴜsɪᴄ ✯──‌‌‏─‌‌‏─•</b> """, 
+ٴ<b>•────‌‌‏✯ ᴇ_ᴍᴜsɪᴄ ✯──‌‌‏─‌‌‏─•</b> """, 
 reply_markup=InlineKeyboardMarkup(
           [               
             [            
               InlineKeyboardButton (name, url=f"https://t.me/{usrnam}"),
             ],[
-              InlineKeyboardButton("•✯ ᴢᴛʜᴏɴ_ᴍᴜsɪᴄ ✯•", url="https://t.me/Zelzal_Music"),
+              InlineKeyboardButton("•✯ ᴇʟɢᴀᴢᴀʀ_ᴍụѕɪᴄ ✯•", url="https://t.me/A_M_030"),
             ],
           ]
        )                 
