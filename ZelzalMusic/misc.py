@@ -43,7 +43,7 @@ XCB = [
 def dbb():
     global db
     db = {}
-    LOGGER("ميــوزك زدثــون").info(f"تم تحديث قاعدة بيانات البوت ...✓")
+    LOGGER("ميــوزك الـجـزار").info(f"تم تحديث قاعدة بيانات البوت ...✓")
 
 
 async def sudo():
@@ -62,7 +62,7 @@ async def sudo():
     if sudoers:
         for user_id in sudoers:
             SUDOERS.add(user_id)
-    LOGGER("ميــوزك زدثــون").info(f" تم تحميل قائمة مطورين البوت ...✓")
+    LOGGER("ميــوزك الـجـزار").info(f" تم تحميل قائمة مطورين البوت ...✓")
 
 
 def heroku():
