@@ -51,7 +51,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER("ميــوزك زدثــون").info(f"جارِ تشغيل الحساب المساعد . . .")
+        LOGGER("ميــوزك الـجـزار").info(f"جارِ تشغيل الحساب المساعد . . .")
         if config.STRING1:
             await self.one.start()
             try:
@@ -74,7 +74,7 @@ class Userbot(Client):
             self.one.name = self.one.me.first_name
             self.one.username = self.one.me.username
             assistantids.append(self.one.id)
-            LOGGER("ميــوزك زدثــون").info(f"تم بدء تشغيل الحساب المساعد {self.one.name} ...✓")
+            LOGGER("ميــوزك الـجـزار").info(f"تم بدء تشغيل الحساب المساعد {self.one.name} ...✓")
 
         if config.STRING2:
             await self.two.start()
@@ -97,7 +97,7 @@ class Userbot(Client):
             self.two.name = self.two.me.mention
             self.two.username = self.two.me.username
             assistantids.append(self.two.id)
-            LOGGER("ميــوزك زدثــون").info(f"Assistant Two Started as {self.two.name}")
+            LOGGER("ميــوزك الـجـزار").info(f"Assistant Two Started as {self.two.name}")
 
         if config.STRING3:
             await self.three.start()
@@ -120,7 +120,7 @@ class Userbot(Client):
             self.three.name = self.three.me.mention
             self.three.username = self.three.me.username
             assistantids.append(self.three.id)
-            LOGGER("ميــوزك زدثــون").info(f"Assistant Three Started as {self.three.name}")
+            LOGGER("ميــوزك الـجـزار").info(f"Assistant Three Started as {self.three.name}")
 
         if config.STRING4:
             await self.four.start()
@@ -143,7 +143,7 @@ class Userbot(Client):
             self.four.name = self.four.me.mention
             self.four.username = self.four.me.username
             assistantids.append(self.four.id)
-            LOGGER("ميــوزك زدثــون").info(f"Assistant Four Started as {self.four.name}")
+            LOGGER("ميــوزك الـجـزار").info(f"Assistant Four Started as {self.four.name}")
 
         if config.STRING5:
             await self.five.start()
@@ -166,10 +166,10 @@ class Userbot(Client):
             self.five.name = self.five.me.mention
             self.five.username = self.five.me.username
             assistantids.append(self.five.id)
-            LOGGER("ميــوزك زدثــون").info(f"Assistant Five Started as {self.five.name}")
+            LOGGER("ميــوزك الـجـزار").info(f"Assistant Five Started as {self.five.name}")
 
     async def stop(self):
-        LOGGER("ميــوزك زدثــون").info(f"Stopping Assistants...")
+        LOGGER("ميــوزك الـجـزار").info(f"Stopping Assistants...")
         try:
             if config.STRING1:
                 await self.one.stop()
