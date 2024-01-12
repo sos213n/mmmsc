@@ -26,15 +26,15 @@ async def zdatsr(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• اوامــر التشغيــل •", callback_data="zzzll"),
+                        "• اوامــر التشغيــل •", callback_data="lllby"),
                 ],[
                     InlineKeyboardButton(
-                        "• اوامـر القنـاة •", callback_data="zzzch"),
+                        "• اوامـر القنـاة •", callback_data="lllby"),
                     InlineKeyboardButton(
-                        "• اوامـر الادمـن •", callback_data="zzzad"),
+                        "• اوامـر الادمـن •", callback_data="lllby"),
                 ],[
                     InlineKeyboardButton(
-                        "• اوامــر المطــور •", callback_data="zzzdv"),
+                        "• اوامــر المطــور •", callback_data="lllby"),
                 ],[
                     InlineKeyboardButton(name, url=f"https://t.me/{usrnam}"),
                 ],[
