@@ -15,7 +15,7 @@ from config import BANNED_USERS
 
 
 @app.on_message(
-    command(["seek", "cseek", "seekback", "cseekback"])
+    command(["تقديم", "cseek", "رجوع", "cseekback"])
     & filters.group
     & ~BANNED_USERS
 )
