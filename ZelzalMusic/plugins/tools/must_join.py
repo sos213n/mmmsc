@@ -5,16 +5,16 @@ from ZelzalMusic import app
 
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(bot: Client, msg: Message):
-    if not "https://t.me/cczza":  # Not compulsory
+    if not "https://t.me/mmmsc":  # Not compulsory
         return
     try:
         try:
-            await bot.get_chat_member("cczza", msg.from_user.id)
+            await bot.get_chat_member("mmmsc", msg.from_user.id)
         except UserNotParticipant:
-            if "https://t.me/cczza".isalpha():
-                link = "https://t.me/cczza"
+            if "https://t.me/mmmsc".isalpha():
+                link = "https://t.me/mmmsc"
             else:
-                chat_info = await bot.get_chat("cczza")
+                chat_info = await bot.get_chat("mmmsc")
                 link = chat_info.invite_link
             try:
                 await msg.reply(
@@ -28,4 +28,4 @@ async def must_join_channel(bot: Client, msg: Message):
             except ChatWriteForbidden:
                 pass
     except ChatAdminRequired:
-        print(f"I'm not admin in the MUST_JOIN chat @cczza !")
+        print(f"I'm not admin in the MUST_JOIN chat @mmmsc !")
