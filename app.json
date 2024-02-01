@@ -37,12 +37,6 @@
         "value": "",
         "required": false
       },
-        "MUST_JOIN": {
-            "description": "Enter the username of you channel or group.",
-            "value": "@Alexa_Help",
-            "required": true
-        },
-            
       "LOGGER_ID": {
         "description": "ادخــل ايــدي مجمـوعــة السجــل بجـانب الرقـم -100 فـي المربـع〔 سوي مجموعة جديدة وروح لاعدادات المجموعة وخلي السجل ظاهر .. بعدها ارفع البوت والحساب المساعد إشـراف وافتـح المكالمه بعدها جيب ايدي المجموعة لهنـا 〕..",
         "value": "-100",
