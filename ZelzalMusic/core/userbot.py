@@ -56,7 +56,7 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("mmmsc")
-                await self.one.join_chat("AAA75")
+                await self.one.join_chat("mmmsc")
                 await self.one.join_chat("lllcz")
                 await self.one.join_chat("vvvci")
                 await self.one.join_chat("mmmsc")
