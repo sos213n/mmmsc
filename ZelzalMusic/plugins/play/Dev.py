@@ -2,7 +2,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from strings.filters import command
-from AarohiX import app
+from ZelzalMusic import app
 import config
 
 @app.on_message(
