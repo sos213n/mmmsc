@@ -1,9 +1,14 @@
 #sos
-from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
+import asyncio
+import os
+import requests
+import pyrogram
+from pyrogram import Client, filters, emoji
 from strings.filters import command
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
+from pyrogram.errors import MessageNotModified
 from ZelzalMusic import app
-import config
+from config import OWNER_ID, LOGGER_ID
 
 @app.on_message(
     command(["المطور", "السورس", "المصنع"])
