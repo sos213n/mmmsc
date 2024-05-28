@@ -12,7 +12,7 @@ from ..logging import LOGGER
 
 class Zelzaly(Client):
     def __init__(self):
-        LOGGER("ميــوزك الـجـزار").info(f"جارِ بدء تشغيل البوت . . .")
+        LOGGER("ميــوزك زدثــون").info(f"جارِ بدء تشغيل البوت . . .")
         super().__init__(
             name="ZelzalMusic",
             api_id=config.API_ID,
@@ -52,7 +52,7 @@ class Zelzaly(Client):
                 "» قم برفـع البـوت مشـرفـاً بكافة الصلاحيات في مجموعـة السجـل"
             )
             exit()
-        LOGGER("ميــوزك الـجـزار").info(f" تم بدء تشغيل البوت {self.name} ...✓")
+        LOGGER("ميــوزك زدثــون").info(f" تم بدء تشغيل البوت {self.name} ...✓")
 
     async def stop(self):
         await super().stop()
