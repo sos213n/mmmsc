@@ -19,7 +19,7 @@ async def maker(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "- Dev Bot .", url=f"https://t.me/lllBY"
+                        "- Dev Bot .", url=f"https://t.me/fo98s"
                     ),
                 ],
                 [
